@@ -1,6 +1,0 @@
-console.log(Math)
-// console.log(Math.abs(-4))
-// console.log(Math.round(4.78))
-// console.log(Math.round(4.4))
-// console.log(Math.ceil(4.4))
-// console.log(Math.floor(4.4))
