@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Local Time</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #1c1c1c;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            height: 60px;
+            background-color: #eeeeee;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding-left: 55px;
+        }
+
+        nav button {
+            padding: 7px 25px;
+            font-size: 14px;
+            background-color: #eeeeee;
+            border: 1px solid #999;
+            border-radius: 3px;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 250px;
+        }
+
+        .container p {
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        #clock {
+            width: 70px;
+            height: 28px;
+            background-color: orange;
+            border-radius: 7px;
+            margin: auto;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <button>Home</button>
+        <button>Youtube Channel</button>
+    </nav>
+
+    <div class="container">
+        <p>Your local time</p>
+        <div id="clock"></div>
+    </div>
+
+    <script src="clock.js"></script>
+
+</body>
+</html>
